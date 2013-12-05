@@ -8,6 +8,7 @@ require 'w3c_validators/exceptions'
 require 'w3c_validators/constants'
 require 'w3c_validators/results'
 require 'w3c_validators/message'
+require 'w3c_validators/version'
 
 module W3CValidators
   # Base class for MarkupValidator and FeedValidator.
