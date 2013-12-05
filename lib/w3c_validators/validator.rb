@@ -12,7 +12,7 @@ require 'w3c_validators/message'
 module W3CValidators
   # Base class for MarkupValidator and FeedValidator.
   class Validator
-    USER_AGENT                = "Ruby W3C Validators/#{Validator::VERSION} (http://code.dunae.ca/w3c_validators/)"
+    USER_AGENT                = "Ruby W3C Validators/#{W3CValidators::VERSION} (http://code.dunae.ca/w3c_validators/)"
     HEAD_STATUS_HEADER        = 'X-W3C-Validator-Status'
     HEAD_ERROR_COUNT_HEADER   = 'X-W3C-Validator-Errors'
     SOAP_OUTPUT_PARAM         = 'soap12'
